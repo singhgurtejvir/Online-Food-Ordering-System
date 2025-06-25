@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Order Details';
-require_once 'includes/header.php';
+require_once 'header.php';
 
 // Require login
 requireLogin();
@@ -114,4 +114,4 @@ $orderItems = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </div>
 </main>
 
-<?php require_once 'includes/footer.php'; ?>
+<?php require_once 'footer.php'; ?>
